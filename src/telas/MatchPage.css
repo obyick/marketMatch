@@ -1,0 +1,33 @@
+.match-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Garante que a página ocupe toda a altura da janela */
+}
+
+.match-page main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1; /* Faz o <main> crescer para ocupar o espaço restante */
+}
+
+header, footer {
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.match-page h1 {
+  font-size: 5em;
+  color: #000;
+  margin-bottom: 0;
+}
+
+.match-page h2 {
+  font-size: 3em;
+  font-weight: lighter;
+  color: #666;
+  margin-top: 0;
+  margin-bottom: 130px;
+}
